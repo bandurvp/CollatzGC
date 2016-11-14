@@ -1,0 +1,7311 @@
+desc: --time-unit=ms --max-snapshots=1000
+cmd: ./Generated
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=133
+mem_heap_B=24
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=141
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=peak
+n3: 256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 192 0x40596C: newTypeValue (TypedValue.c:48)
+  n6: 120 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40280C: _Z3runEV (Collatz.c:95)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 6 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=3
+#-----------
+time=149
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=156
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=164
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=171
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=179
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=186
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=193
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=201
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=208
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=212
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=219
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=223
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=230
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=237
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=245
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=252
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=259
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=263
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=270
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=274
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=281
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=285
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=292
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=300
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=308
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=312
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=319
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=326
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=330
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=337
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=341
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=348
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=355
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=362
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=366
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=373
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=377
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=384
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=392
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=399
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=406
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=413
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=417
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=424
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=428
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=435
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=442
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=449
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=457
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=464
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=471
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=479
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=484
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=492
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=500
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=508
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=516
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=520
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=527
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=534
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=542
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=549
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=553
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=560
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=568
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=572
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=579
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=587
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=593
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=597
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=603
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=610
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=614
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=621
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=629
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=636
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=643
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=651
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=658
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=665
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=673
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=680
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=687
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=694
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=702
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=709
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=716
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=724
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=731
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=738
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=746
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=753
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=760
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=768
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=97
+#-----------
+time=775
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=98
+#-----------
+time=782
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=99
+#-----------
+time=789
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=100
+#-----------
+time=797
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=101
+#-----------
+time=804
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=102
+#-----------
+time=811
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=103
+#-----------
+time=818
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=104
+#-----------
+time=826
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=105
+#-----------
+time=833
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=106
+#-----------
+time=840
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=107
+#-----------
+time=847
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=108
+#-----------
+time=855
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=109
+#-----------
+time=862
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=110
+#-----------
+time=869
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=111
+#-----------
+time=876
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=112
+#-----------
+time=884
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=113
+#-----------
+time=891
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=114
+#-----------
+time=898
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=115
+#-----------
+time=905
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=116
+#-----------
+time=909
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=117
+#-----------
+time=913
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=118
+#-----------
+time=920
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=119
+#-----------
+time=927
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=120
+#-----------
+time=931
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=121
+#-----------
+time=935
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=122
+#-----------
+time=942
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=123
+#-----------
+time=949
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=124
+#-----------
+time=956
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=125
+#-----------
+time=960
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=126
+#-----------
+time=964
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=127
+#-----------
+time=968
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=128
+#-----------
+time=972
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=129
+#-----------
+time=976
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=130
+#-----------
+time=980
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=131
+#-----------
+time=984
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=132
+#-----------
+time=988
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=133
+#-----------
+time=992
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=134
+#-----------
+time=996
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=135
+#-----------
+time=1000
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=136
+#-----------
+time=1004
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=137
+#-----------
+time=1008
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=138
+#-----------
+time=1012
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=139
+#-----------
+time=1016
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=140
+#-----------
+time=1020
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=141
+#-----------
+time=1024
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=142
+#-----------
+time=1028
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=143
+#-----------
+time=1032
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=144
+#-----------
+time=1036
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=145
+#-----------
+time=1040
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=146
+#-----------
+time=1044
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=147
+#-----------
+time=1048
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=148
+#-----------
+time=1052
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=149
+#-----------
+time=1056
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=150
+#-----------
+time=1060
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=151
+#-----------
+time=1064
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=152
+#-----------
+time=1068
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=153
+#-----------
+time=1072
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=154
+#-----------
+time=1076
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=155
+#-----------
+time=1083
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=156
+#-----------
+time=1087
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=157
+#-----------
+time=1091
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=158
+#-----------
+time=1095
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=159
+#-----------
+time=1099
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=160
+#-----------
+time=1103
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=161
+#-----------
+time=1107
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=162
+#-----------
+time=1111
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=163
+#-----------
+time=1115
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=164
+#-----------
+time=1119
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=165
+#-----------
+time=1123
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=166
+#-----------
+time=1127
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=167
+#-----------
+time=1131
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=168
+#-----------
+time=1135
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=169
+#-----------
+time=1139
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=170
+#-----------
+time=1143
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=171
+#-----------
+time=1147
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=172
+#-----------
+time=1151
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=173
+#-----------
+time=1155
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=174
+#-----------
+time=1159
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=175
+#-----------
+time=1163
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=176
+#-----------
+time=1167
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=177
+#-----------
+time=1171
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=178
+#-----------
+time=1175
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=179
+#-----------
+time=1179
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=180
+#-----------
+time=1183
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=181
+#-----------
+time=1187
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=182
+#-----------
+time=1191
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=183
+#-----------
+time=1195
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=184
+#-----------
+time=1199
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=185
+#-----------
+time=1203
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=186
+#-----------
+time=1207
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=187
+#-----------
+time=1211
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=188
+#-----------
+time=1215
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=189
+#-----------
+time=1219
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=190
+#-----------
+time=1223
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=191
+#-----------
+time=1227
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=192
+#-----------
+time=1231
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=193
+#-----------
+time=1235
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=194
+#-----------
+time=1239
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=195
+#-----------
+time=1243
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=196
+#-----------
+time=1247
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=197
+#-----------
+time=1251
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=198
+#-----------
+time=1255
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=199
+#-----------
+time=1259
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=200
+#-----------
+time=1263
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=201
+#-----------
+time=1267
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=202
+#-----------
+time=1271
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=203
+#-----------
+time=1275
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=204
+#-----------
+time=1282
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=205
+#-----------
+time=1286
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=206
+#-----------
+time=1290
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=207
+#-----------
+time=1294
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=208
+#-----------
+time=1298
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=209
+#-----------
+time=1302
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=210
+#-----------
+time=1306
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=211
+#-----------
+time=1310
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=212
+#-----------
+time=1314
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=213
+#-----------
+time=1318
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=214
+#-----------
+time=1322
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=215
+#-----------
+time=1326
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=216
+#-----------
+time=1330
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n5: 96 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 6 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=217
+#-----------
+time=1334
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=218
+#-----------
+time=1338
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=219
+#-----------
+time=1342
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=220
+#-----------
+time=1346
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=221
+#-----------
+time=1350
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=222
+#-----------
+time=1354
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=223
+#-----------
+time=1358
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=224
+#-----------
+time=1362
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=225
+#-----------
+time=1366
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=226
+#-----------
+time=1370
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=227
+#-----------
+time=1374
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=228
+#-----------
+time=1378
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=229
+#-----------
+time=1382
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=230
+#-----------
+time=1386
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=231
+#-----------
+time=1390
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=232
+#-----------
+time=1394
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=233
+#-----------
+time=1398
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=234
+#-----------
+time=1402
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=235
+#-----------
+time=1406
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=236
+#-----------
+time=1410
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=237
+#-----------
+time=1414
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=238
+#-----------
+time=1418
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=239
+#-----------
+time=1422
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=240
+#-----------
+time=1426
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=241
+#-----------
+time=1430
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=242
+#-----------
+time=1434
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=243
+#-----------
+time=1438
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=244
+#-----------
+time=1442
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=245
+#-----------
+time=1446
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=246
+#-----------
+time=1450
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=247
+#-----------
+time=1454
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=248
+#-----------
+time=1458
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=249
+#-----------
+time=1463
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=250
+#-----------
+time=1469
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=251
+#-----------
+time=1473
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=252
+#-----------
+time=1477
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=253
+#-----------
+time=1481
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=254
+#-----------
+time=1485
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=255
+#-----------
+time=1489
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=256
+#-----------
+time=1493
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=257
+#-----------
+time=1497
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=258
+#-----------
+time=1501
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=259
+#-----------
+time=1505
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=260
+#-----------
+time=1509
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=261
+#-----------
+time=1513
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=262
+#-----------
+time=1517
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=263
+#-----------
+time=1521
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=264
+#-----------
+time=1525
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=265
+#-----------
+time=1529
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=266
+#-----------
+time=1533
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=267
+#-----------
+time=1537
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=268
+#-----------
+time=1541
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=269
+#-----------
+time=1545
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=270
+#-----------
+time=1549
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=271
+#-----------
+time=1553
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=272
+#-----------
+time=1557
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=273
+#-----------
+time=1561
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=274
+#-----------
+time=1565
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=275
+#-----------
+time=1569
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=276
+#-----------
+time=1573
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=277
+#-----------
+time=1577
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=278
+#-----------
+time=1581
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=279
+#-----------
+time=1585
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=280
+#-----------
+time=1589
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=281
+#-----------
+time=1593
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=282
+#-----------
+time=1597
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=283
+#-----------
+time=1601
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=284
+#-----------
+time=1605
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=285
+#-----------
+time=1609
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=286
+#-----------
+time=1613
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=287
+#-----------
+time=1617
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=288
+#-----------
+time=1621
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=289
+#-----------
+time=1625
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=290
+#-----------
+time=1629
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=291
+#-----------
+time=1633
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=292
+#-----------
+time=1637
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=293
+#-----------
+time=1641
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=294
+#-----------
+time=1645
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=295
+#-----------
+time=1649
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=296
+#-----------
+time=1653
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=297
+#-----------
+time=1657
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=298
+#-----------
+time=1661
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=299
+#-----------
+time=1665
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=300
+#-----------
+time=1669
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=301
+#-----------
+time=1673
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=302
+#-----------
+time=1677
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=303
+#-----------
+time=1681
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=304
+#-----------
+time=1685
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=305
+#-----------
+time=1689
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=306
+#-----------
+time=1693
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=307
+#-----------
+time=1697
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=308
+#-----------
+time=1701
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=309
+#-----------
+time=1705
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=310
+#-----------
+time=1709
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=311
+#-----------
+time=1713
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=312
+#-----------
+time=1717
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=313
+#-----------
+time=1721
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=314
+#-----------
+time=1725
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=315
+#-----------
+time=1729
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=316
+#-----------
+time=1733
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=317
+#-----------
+time=1737
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=318
+#-----------
+time=1741
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=319
+#-----------
+time=1745
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=320
+#-----------
+time=1749
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=321
+#-----------
+time=1753
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=322
+#-----------
+time=1757
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=323
+#-----------
+time=1761
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=324
+#-----------
+time=1765
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=325
+#-----------
+time=1769
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=326
+#-----------
+time=1773
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=327
+#-----------
+time=1777
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=328
+#-----------
+time=1781
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=329
+#-----------
+time=1785
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=330
+#-----------
+time=1789
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=331
+#-----------
+time=1793
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=332
+#-----------
+time=1797
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=333
+#-----------
+time=1801
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=334
+#-----------
+time=1805
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=335
+#-----------
+time=1809
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=336
+#-----------
+time=1813
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=337
+#-----------
+time=1817
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=338
+#-----------
+time=1821
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=339
+#-----------
+time=1825
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=340
+#-----------
+time=1829
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=341
+#-----------
+time=1833
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=342
+#-----------
+time=1837
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=343
+#-----------
+time=1841
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=344
+#-----------
+time=1845
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=345
+#-----------
+time=1849
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=346
+#-----------
+time=1853
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=347
+#-----------
+time=1857
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=348
+#-----------
+time=1861
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=349
+#-----------
+time=1865
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=350
+#-----------
+time=1869
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=351
+#-----------
+time=1873
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=352
+#-----------
+time=1877
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=353
+#-----------
+time=1881
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=354
+#-----------
+time=1885
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=355
+#-----------
+time=1889
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=356
+#-----------
+time=1893
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=357
+#-----------
+time=1897
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=358
+#-----------
+time=1901
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=359
+#-----------
+time=1905
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=360
+#-----------
+time=1909
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=361
+#-----------
+time=1913
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=362
+#-----------
+time=1917
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=363
+#-----------
+time=1921
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=364
+#-----------
+time=1925
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=365
+#-----------
+time=1929
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=366
+#-----------
+time=1933
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=367
+#-----------
+time=1937
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=368
+#-----------
+time=1941
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=369
+#-----------
+time=1945
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=370
+#-----------
+time=1949
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=371
+#-----------
+time=1953
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=372
+#-----------
+time=1957
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=373
+#-----------
+time=1961
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=374
+#-----------
+time=1965
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=375
+#-----------
+time=1969
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=376
+#-----------
+time=1973
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=377
+#-----------
+time=1977
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=378
+#-----------
+time=1981
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=379
+#-----------
+time=1985
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=380
+#-----------
+time=1989
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=381
+#-----------
+time=1993
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=382
+#-----------
+time=1997
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=383
+#-----------
+time=2001
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=384
+#-----------
+time=2008
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=385
+#-----------
+time=2012
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=386
+#-----------
+time=2016
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=387
+#-----------
+time=2020
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=388
+#-----------
+time=2024
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40273C: _Z3runEV (Collatz.c:76)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=389
+#-----------
+time=2028
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=390
+#-----------
+time=2032
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=391
+#-----------
+time=2036
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=392
+#-----------
+time=2040
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=393
+#-----------
+time=2044
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n3: 256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 192 0x40596C: newTypeValue (TypedValue.c:48)
+  n6: 120 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40280C: _Z3runEV (Collatz.c:95)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=394
+#-----------
+time=2048
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=395
+#-----------
+time=2052
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=396
+#-----------
+time=2056
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=397
+#-----------
+time=2060
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=398
+#-----------
+time=2064
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x4026FD: _Z3runEV (Collatz.c:71)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=399
+#-----------
+time=2068
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=400
+#-----------
+time=2072
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=401
+#-----------
+time=2076
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=402
+#-----------
+time=2080
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=403
+#-----------
+time=2084
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x4026FD: _Z3runEV (Collatz.c:71)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=404
+#-----------
+time=2088
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=405
+#-----------
+time=2092
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=406
+#-----------
+time=2096
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=407
+#-----------
+time=2100
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=408
+#-----------
+time=2104
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027B4: _Z3runEV (Collatz.c:89)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=409
+#-----------
+time=2108
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=410
+#-----------
+time=2112
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=411
+#-----------
+time=2116
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=412
+#-----------
+time=2120
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=413
+#-----------
+time=2124
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=414
+#-----------
+time=2128
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=415
+#-----------
+time=2132
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=416
+#-----------
+time=2136
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=417
+#-----------
+time=2140
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=418
+#-----------
+time=2144
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n5: 96 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 6 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=419
+#-----------
+time=2148
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=420
+#-----------
+time=2152
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=421
+#-----------
+time=2156
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=422
+#-----------
+time=2160
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=423
+#-----------
+time=2164
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=424
+#-----------
+time=2168
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=425
+#-----------
+time=2172
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=426
+#-----------
+time=2176
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=427
+#-----------
+time=2180
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=428
+#-----------
+time=2184
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=429
+#-----------
+time=2188
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=430
+#-----------
+time=2192
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=431
+#-----------
+time=2196
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=432
+#-----------
+time=2200
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=433
+#-----------
+time=2204
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40273C: _Z3runEV (Collatz.c:76)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=434
+#-----------
+time=2208
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=435
+#-----------
+time=2212
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=436
+#-----------
+time=2216
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=437
+#-----------
+time=2220
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=438
+#-----------
+time=2224
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=439
+#-----------
+time=2228
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=440
+#-----------
+time=2232
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=441
+#-----------
+time=2236
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=442
+#-----------
+time=2240
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=443
+#-----------
+time=2244
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=444
+#-----------
+time=2248
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=445
+#-----------
+time=2252
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=446
+#-----------
+time=2256
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=447
+#-----------
+time=2260
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=448
+#-----------
+time=2264
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=449
+#-----------
+time=2268
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=450
+#-----------
+time=2272
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=451
+#-----------
+time=2276
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=452
+#-----------
+time=2280
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=453
+#-----------
+time=2284
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n5: 96 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 6 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=454
+#-----------
+time=2288
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=455
+#-----------
+time=2292
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=456
+#-----------
+time=2296
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=457
+#-----------
+time=2300
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=458
+#-----------
+time=2304
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=459
+#-----------
+time=2308
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=460
+#-----------
+time=2312
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=461
+#-----------
+time=2316
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=462
+#-----------
+time=2320
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=463
+#-----------
+time=2324
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=464
+#-----------
+time=2328
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=465
+#-----------
+time=2332
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=466
+#-----------
+time=2336
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=467
+#-----------
+time=2340
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=468
+#-----------
+time=2344
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=469
+#-----------
+time=2348
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=470
+#-----------
+time=2352
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=471
+#-----------
+time=2356
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=472
+#-----------
+time=2360
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=473
+#-----------
+time=2364
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=474
+#-----------
+time=2368
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=475
+#-----------
+time=2372
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=476
+#-----------
+time=2376
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=477
+#-----------
+time=2380
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=478
+#-----------
+time=2384
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=detailed
+n3: 232 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 168 0x40596C: newTypeValue (TypedValue.c:48)
+  n6: 120 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=479
+#-----------
+time=2388
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=480
+#-----------
+time=2392
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=481
+#-----------
+time=2396
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=482
+#-----------
+time=2400
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=483
+#-----------
+time=2404
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=484
+#-----------
+time=2408
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=485
+#-----------
+time=2412
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=486
+#-----------
+time=2416
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=487
+#-----------
+time=2420
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=488
+#-----------
+time=2424
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40273C: _Z3runEV (Collatz.c:76)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=489
+#-----------
+time=2428
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=490
+#-----------
+time=2432
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=491
+#-----------
+time=2436
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=492
+#-----------
+time=2440
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=493
+#-----------
+time=2444
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=494
+#-----------
+time=2448
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=495
+#-----------
+time=2452
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=496
+#-----------
+time=2456
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=497
+#-----------
+time=2460
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=498
+#-----------
+time=2464
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x4026FD: _Z3runEV (Collatz.c:71)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=499
+#-----------
+time=2468
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=500
+#-----------
+time=2472
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=501
+#-----------
+time=2476
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=502
+#-----------
+time=2480
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=503
+#-----------
+time=2484
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=504
+#-----------
+time=2488
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=505
+#-----------
+time=2492
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=506
+#-----------
+time=2496
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=507
+#-----------
+time=2500
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=508
+#-----------
+time=2504
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=509
+#-----------
+time=2508
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=510
+#-----------
+time=2512
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=511
+#-----------
+time=2516
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=512
+#-----------
+time=2520
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=513
+#-----------
+time=2524
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=514
+#-----------
+time=2528
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=515
+#-----------
+time=2532
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=516
+#-----------
+time=2536
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=517
+#-----------
+time=2540
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=518
+#-----------
+time=2544
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=519
+#-----------
+time=2548
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=520
+#-----------
+time=2552
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=521
+#-----------
+time=2556
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=522
+#-----------
+time=2560
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=523
+#-----------
+time=2564
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=524
+#-----------
+time=2568
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=525
+#-----------
+time=2572
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=526
+#-----------
+time=2576
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=527
+#-----------
+time=2580
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=528
+#-----------
+time=2584
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=529
+#-----------
+time=2588
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=530
+#-----------
+time=2592
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=531
+#-----------
+time=2596
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=532
+#-----------
+time=2600
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=533
+#-----------
+time=2604
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=534
+#-----------
+time=2608
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=535
+#-----------
+time=2612
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=536
+#-----------
+time=2616
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=537
+#-----------
+time=2620
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x4026FD: _Z3runEV (Collatz.c:71)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=538
+#-----------
+time=2624
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=539
+#-----------
+time=2628
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=540
+#-----------
+time=2632
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=541
+#-----------
+time=2636
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=542
+#-----------
+time=2640
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=543
+#-----------
+time=2644
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=544
+#-----------
+time=2648
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=545
+#-----------
+time=2652
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=546
+#-----------
+time=2656
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=547
+#-----------
+time=2660
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=548
+#-----------
+time=2664
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=549
+#-----------
+time=2668
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=550
+#-----------
+time=2672
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=551
+#-----------
+time=2676
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=552
+#-----------
+time=2680
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=553
+#-----------
+time=2684
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=554
+#-----------
+time=2688
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=555
+#-----------
+time=2692
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=556
+#-----------
+time=2696
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=557
+#-----------
+time=2700
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=558
+#-----------
+time=2704
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=559
+#-----------
+time=2708
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=560
+#-----------
+time=2712
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=561
+#-----------
+time=2716
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=562
+#-----------
+time=2720
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=563
+#-----------
+time=2724
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=564
+#-----------
+time=2728
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=565
+#-----------
+time=2732
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=566
+#-----------
+time=2736
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=567
+#-----------
+time=2740
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n5: 96 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 6 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=568
+#-----------
+time=2744
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=569
+#-----------
+time=2748
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=570
+#-----------
+time=2752
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=571
+#-----------
+time=2756
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=572
+#-----------
+time=2760
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=573
+#-----------
+time=2764
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=574
+#-----------
+time=2768
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=575
+#-----------
+time=2772
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=576
+#-----------
+time=2776
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=577
+#-----------
+time=2780
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=detailed
+n3: 232 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 168 0x40596C: newTypeValue (TypedValue.c:48)
+  n6: 120 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=578
+#-----------
+time=2784
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=579
+#-----------
+time=2788
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=580
+#-----------
+time=2792
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=581
+#-----------
+time=2796
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=582
+#-----------
+time=2800
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=583
+#-----------
+time=2804
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=584
+#-----------
+time=2808
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=585
+#-----------
+time=2812
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=586
+#-----------
+time=2816
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=587
+#-----------
+time=2820
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=588
+#-----------
+time=2824
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=589
+#-----------
+time=2828
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=590
+#-----------
+time=2832
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=591
+#-----------
+time=2836
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=592
+#-----------
+time=2840
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=593
+#-----------
+time=2844
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=594
+#-----------
+time=2848
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=595
+#-----------
+time=2852
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=596
+#-----------
+time=2856
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=597
+#-----------
+time=2860
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=598
+#-----------
+time=2864
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=599
+#-----------
+time=2868
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=600
+#-----------
+time=2872
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=601
+#-----------
+time=2876
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=602
+#-----------
+time=2880
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=603
+#-----------
+time=2884
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=604
+#-----------
+time=2888
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=605
+#-----------
+time=2892
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=606
+#-----------
+time=2896
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=607
+#-----------
+time=2900
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n3: 208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 144 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=608
+#-----------
+time=2904
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=609
+#-----------
+time=2908
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=610
+#-----------
+time=2912
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=611
+#-----------
+time=2916
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=612
+#-----------
+time=2920
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=613
+#-----------
+time=2924
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=614
+#-----------
+time=2928
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=615
+#-----------
+time=2932
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=616
+#-----------
+time=2936
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=617
+#-----------
+time=2940
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x40264C: _Z3runEV (Collatz.c:58)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=618
+#-----------
+time=2944
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=619
+#-----------
+time=2948
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=620
+#-----------
+time=2952
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=621
+#-----------
+time=2956
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=622
+#-----------
+time=2960
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=623
+#-----------
+time=2964
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=624
+#-----------
+time=2968
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=625
+#-----------
+time=2972
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=626
+#-----------
+time=2976
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=627
+#-----------
+time=2980
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n4: 72 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40267D: _Z3runEV (Collatz.c:61)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=628
+#-----------
+time=2984
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=629
+#-----------
+time=2988
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=630
+#-----------
+time=2992
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=631
+#-----------
+time=2996
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=632
+#-----------
+time=3000
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=633
+#-----------
+time=3004
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=634
+#-----------
+time=3008
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=635
+#-----------
+time=3012
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=636
+#-----------
+time=3016
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=637
+#-----------
+time=3020
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=638
+#-----------
+time=3024
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=639
+#-----------
+time=3028
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=640
+#-----------
+time=3032
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=641
+#-----------
+time=3036
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=642
+#-----------
+time=3040
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=643
+#-----------
+time=3044
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=644
+#-----------
+time=3048
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=645
+#-----------
+time=3052
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=646
+#-----------
+time=3056
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=647
+#-----------
+time=3060
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x402635: _Z3runEV (Collatz.c:57)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=648
+#-----------
+time=3064
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=649
+#-----------
+time=3068
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=650
+#-----------
+time=3072
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=651
+#-----------
+time=3076
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=652
+#-----------
+time=3080
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=653
+#-----------
+time=3084
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=654
+#-----------
+time=3088
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=655
+#-----------
+time=3092
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=656
+#-----------
+time=3096
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=657
+#-----------
+time=3100
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=658
+#-----------
+time=3104
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=659
+#-----------
+time=3108
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=660
+#-----------
+time=3112
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=661
+#-----------
+time=3116
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=662
+#-----------
+time=3120
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=663
+#-----------
+time=3124
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=664
+#-----------
+time=3128
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=665
+#-----------
+time=3132
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=666
+#-----------
+time=3136
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=667
+#-----------
+time=3140
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 120 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4048DD: vdmMod (VdmBasicTypes.c:600)
+    n1: 24 0x402663: _Z3runEV (Collatz.c:59)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402837: _Z3runEV (Collatz.c:98)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=668
+#-----------
+time=3144
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=669
+#-----------
+time=3148
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=670
+#-----------
+time=3152
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=671
+#-----------
+time=3156
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=672
+#-----------
+time=3160
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=673
+#-----------
+time=3164
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=674
+#-----------
+time=3168
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=675
+#-----------
+time=3172
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=676
+#-----------
+time=3176
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=677
+#-----------
+time=3180
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n3: 256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 192 0x40596C: newTypeValue (TypedValue.c:48)
+  n6: 120 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x40279D: _Z3runEV (Collatz.c:88)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403E45: vdmProduct (VdmBasicTypes.c:461)
+    n1: 24 0x4027CB: _Z3runEV (Collatz.c:90)
+     n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x4027E5: _Z3runEV (Collatz.c:92)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x403921: vdmSum (VdmBasicTypes.c:401)
+    n1: 24 0x4027FC: _Z3runEV (Collatz.c:93)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 5 places, all below massif's threshold (01.00%)
+  n3: 48 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n1: 24 0x40280C: _Z3runEV (Collatz.c:95)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 7 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=678
+#-----------
+time=3184
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=679
+#-----------
+time=3188
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=680
+#-----------
+time=3192
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=681
+#-----------
+time=3196
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=682
+#-----------
+time=3200
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=683
+#-----------
+time=3204
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=684
+#-----------
+time=3208
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=685
+#-----------
+time=3212
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=686
+#-----------
+time=3216
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=687
+#-----------
+time=3220
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x405A8B: newBool (TypedValue.c:89)
+   n1: 24 0x4069EA: vdmEquals (TypedValue.c:655)
+    n1: 24 0x4026A0: _Z3runEV (Collatz.c:63)
+     n0: 24 0x40256E: main (main.c:14)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=688
+#-----------
+time=3224
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=689
+#-----------
+time=3228
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=690
+#-----------
+time=3232
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=691
+#-----------
+time=3236
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=692
+#-----------
+time=3240
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=693
+#-----------
+time=3244
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=694
+#-----------
+time=3248
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=695
+#-----------
+time=3252
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=696
+#-----------
+time=3256
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=697
+#-----------
+time=3260
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=698
+#-----------
+time=3264
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=699
+#-----------
+time=3268
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=700
+#-----------
+time=3272
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=701
+#-----------
+time=3276
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=702
+#-----------
+time=3280
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=703
+#-----------
+time=3284
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=704
+#-----------
+time=3288
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=705
+#-----------
+time=3292
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=706
+#-----------
+time=3296
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=707
+#-----------
+time=3300
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=708
+#-----------
+time=3304
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=709
+#-----------
+time=3308
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=710
+#-----------
+time=3312
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=711
+#-----------
+time=3316
+mem_heap_B=256
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=712
+#-----------
+time=3320
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=713
+#-----------
+time=3324
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=714
+#-----------
+time=3328
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=715
+#-----------
+time=3332
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=716
+#-----------
+time=3336
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=717
+#-----------
+time=3340
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x404339: vdmDiv (VdmBasicTypes.c:537)
+    n1: 24 0x402714: _Z3runEV (Collatz.c:72)
+     n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=718
+#-----------
+time=3344
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=719
+#-----------
+time=3348
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=720
+#-----------
+time=3352
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=721
+#-----------
+time=3356
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=722
+#-----------
+time=3360
+mem_heap_B=232
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=723
+#-----------
+time=3364
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=724
+#-----------
+time=3368
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=725
+#-----------
+time=3372
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=726
+#-----------
+time=3376
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=727
+#-----------
+time=3380
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 72 0x40596C: newTypeValue (TypedValue.c:48)
+  n2: 24 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=728
+#-----------
+time=3384
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=729
+#-----------
+time=3388
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=730
+#-----------
+time=3392
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=731
+#-----------
+time=3396
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=732
+#-----------
+time=3400
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=733
+#-----------
+time=3404
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=734
+#-----------
+time=3408
+mem_heap_B=136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=735
+#-----------
+time=3412
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=736
+#-----------
+time=3416
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=737
+#-----------
+time=3420
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=detailed
+n3: 160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 96 0x40596C: newTypeValue (TypedValue.c:48)
+  n3: 48 0x405A04: newInt (TypedValue.c:68)
+   n0: 24 0x402526: main (main.c:9)
+   n1: 24 0x4026E6: _Z3runEV (Collatz.c:70)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n1: 24 0x402961: new (Collatz.c:197)
+   n1: 24 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 24 0x40253B: main (main.c:10)
+  n2: 24 0x405F9D: vdmClone (TypedValue.c:241)
+   n1: 24 0x402767: _Z3runEV (Collatz.c:79)
+    n0: 24 0x40256E: main (main.c:14)
+   n0: 0 in 8 places, all below massif's threshold (01.00%)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 32 0x4028D6: Collatz_Constructor (Collatz.c:174)
+  n1: 32 0x402926: new (Collatz.c:195)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+ n1: 32 0x40590D: newClassValue (VdmClass.c:35)
+  n1: 32 0x40294C: new (Collatz.c:198)
+   n1: 32 0x40298D: _Z7CollatzEI (Collatz.c:220)
+    n0: 32 0x40253B: main (main.c:10)
+#-----------
+snapshot=738
+#-----------
+time=3424
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=739
+#-----------
+time=3428
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=740
+#-----------
+time=3432
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=741
+#-----------
+time=3436
+mem_heap_B=184
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=742
+#-----------
+time=3440
+mem_heap_B=208
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
