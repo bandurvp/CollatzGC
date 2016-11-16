@@ -1,0 +1,2 @@
+set term wxt title "Memory Behaviour, Collatz Calculation, Value 77,031"
+plot [][0:10000] "values.GC" every 1 title "With GC" with lines, "values.noGC" every 1 title "Without GC" with lines, "values.ideal" every 1 title "Ideal behaviour" with lines
