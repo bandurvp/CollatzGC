@@ -70,6 +70,7 @@ SET_FIELD_PTR(Collatz, Collatz, this, val, field_tmp_3);
 vdmFree(field_tmp_3);
 }
 ;
+//printf("%d\n", this->m_Collatz_val->value.intVal);
 }
 
 

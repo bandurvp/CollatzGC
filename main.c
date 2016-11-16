@@ -1,28 +1,30 @@
 #include "Collatz.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	TVP collatz;
 	TVP tmp;
-	int i;
+	int num;
 
-	vdm_gc_init();
+	num = atoi(argv[1]);
 
-	tmp = newInt(837799);
+//	printf("Start:  %d  Iterations:  %d\n", num, iterations);
 
+	tmp = newInt(num);
 	collatz = _Z7CollatzEI(NULL, tmp);
 
-	for(i = 0; i < 1000; i++)
+//	vdm_gc_init();
+
+	while((TO_CLASS_PTR(collatz, Collatz))->m_Collatz_val->value.intVal != 1)
 	{
 		CALL_FUNC(Collatz, Collatz, collatz, CLASS_Collatz__Z3runEV);
-		if(i % 4 == 0)
-		vdm_gc();
+//		vdm_gc();
 	}
 
 	vdmFree(collatz);
 	vdmFree(tmp);
-	vdm_gc();
-	vdm_gc_shutdown();
+
+//	vdm_gc_shutdown();
 
 	return 0;
 }
