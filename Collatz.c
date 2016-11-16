@@ -45,7 +45,9 @@ return ret_1;
 /* A.vdmrt 9:8 */
  static  void _Z3runEV(CollatzCLASS this)	{
 /* A.vdmrt 11:2 */
-if ( toBool(vdmEqualsGC(vdmModGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(2, NULL), NULL), newIntGC(0, NULL), NULL)) )
+if ( toBool(vdmEqualsGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(1, NULL), NULL)) )
+	/* A.vdmrt 12:3 */
+	return ;else if ( toBool(vdmEqualsGC(vdmModGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(2, NULL), NULL), newIntGC(0, NULL), NULL)) )
 	
 	{
 /* A.vdmrt 12:14 */

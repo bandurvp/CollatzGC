@@ -45,10 +45,12 @@ return ret_1;
 /* A.vdmrt 9:8 */
  static  void _Z3runEV(CollatzCLASS this)	{
 /* A.vdmrt 11:2 */
-if ( toBool(vdmEquals(vdmMod(GET_FIELD_PTR(Collatz, Collatz, this, val), newInt(2)), newInt(0))) )
+if ( toBool(vdmEquals(GET_FIELD_PTR(Collatz, Collatz, this, val), newInt(1))) )
+	/* A.vdmrt 12:3 */
+	return ;else if ( toBool(vdmEquals(vdmMod(GET_FIELD_PTR(Collatz, Collatz, this, val), newInt(2)), newInt(0))) )
 	
 	{
-/* A.vdmrt 12:14 */
+/* A.vdmrt 14:14 */
 TVP field_tmp_2 = vdmClone(vdmDiv(GET_FIELD_PTR(Collatz, Collatz, this, val), newInt(2)))
 ;
 
@@ -59,7 +61,7 @@ vdmFree(field_tmp_2);
 else
 	
 	{
-/* A.vdmrt 14:18 */
+/* A.vdmrt 16:18 */
 TVP field_tmp_3 = vdmClone(vdmSum(vdmProduct(newInt(3), GET_FIELD_PTR(Collatz, Collatz, this, val)), newInt(1)))
 ;
 
