@@ -35,7 +35,7 @@ static void Collatz_free(struct Collatz *this)
 
  static  TVP _Z17fieldInitializer1EV()	{
 
-TVP ret_1 = vdmClone(newInt(1))
+TVP ret_1 = vdmCloneGC(newIntGC(1, NULL), &ret_1)
 ;
 
 return ret_1;
@@ -45,65 +45,32 @@ return ret_1;
 /* A.vdmrt 9:8 */
  static  void _Z3runEV(CollatzCLASS this)	{
 /* A.vdmrt 11:2 */
-TVP a1;
-TVP a2;
-TVP a3;
-TVP a4;
-TVP a5;
-TVP a6;
-TVP a7;
-TVP a8;
-
-a7 = newInt(2);
-a8 = GET_FIELD_PTR(Collatz, Collatz, this, val);
-a1 = vdmMod(a8, a7);
-vdmFree(a8);
-a2 = newInt(0);
-vdmFree(a7);
-a7 = vdmEquals(a1, a2);
-vdmFree(a2);
-vdmFree(a1);
-if ( toBool(a7) )
+if ( toBool(vdmEqualsGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(1, NULL), NULL)) )
+	/* A.vdmrt 12:3 */
+	return ;else if ( toBool(vdmEqualsGC(vdmModGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(2, NULL), NULL), newIntGC(0, NULL), NULL)) )
 	
 	{
-vdmFree(a7);
-a7 = newInt(2);
-a8 = GET_FIELD_PTR(Collatz, Collatz, this, val);
-a3 = vdmDiv(a8, a7);
-vdmFree(a8);
-vdmFree(a7);
 /* A.vdmrt 12:14 */
-TVP field_tmp_2 = vdmClone(a3);
+TVP field_tmp_2 = vdmClone(vdmDivGC(GET_FIELD_PTR_GC(Collatz, Collatz, this, val), newIntGC(2, NULL), NULL))
 ;
 
 SET_FIELD_PTR(Collatz, Collatz, this, val, field_tmp_2);
 
 vdmFree(field_tmp_2);
-vdmFree(a3);
 }
 else
 	
 	{
-vdmFree(a7);
-a3 = newInt(3);
-a8 = GET_FIELD_PTR(Collatz, Collatz, this, val);
-a4 = vdmProduct(a3, a8);
-vdmFree(a8);
-a5 = newInt(1);
-a6 = vdmSum(a4, a5);
 /* A.vdmrt 14:18 */
-TVP field_tmp_3 = vdmClone(a6)
+TVP field_tmp_3 = vdmClone(vdmSumGC(vdmProductGC(newIntGC(3, NULL), GET_FIELD_PTR_GC(Collatz, Collatz, this, val), NULL), newIntGC(1, NULL), NULL))
 ;
 
 SET_FIELD_PTR(Collatz, Collatz, this, val, field_tmp_3);
 
 vdmFree(field_tmp_3);
-vdmFree(a3);
-vdmFree(a4);
-vdmFree(a5);
-vdmFree(a6);
 }
 ;
+//printf("%d\n", this->m_Collatz_val->value.intVal);
 }
 
 

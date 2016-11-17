@@ -13,18 +13,18 @@ int main(int argc, char *argv[])
 	tmp = newInt(num);
 	collatz = _Z7CollatzEI(NULL, tmp);
 
-//	vdm_gc_init();
+	vdm_gc_init();
 
 	while((TO_CLASS_PTR(collatz, Collatz))->m_Collatz_val->value.intVal != 1)
 	{
 		CALL_FUNC(Collatz, Collatz, collatz, CLASS_Collatz__Z3runEV);
-//		vdm_gc();
+		vdm_gc();
 	}
 
 	vdmFree(collatz);
 	vdmFree(tmp);
 
-//	vdm_gc_shutdown();
+	vdm_gc_shutdown();
 
 	return 0;
 }
