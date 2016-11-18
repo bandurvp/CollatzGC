@@ -1,16 +1,14 @@
-class ClassCollectionUpdate
-
+lass Collatz
 instance variables
-
-ivarSeq : seq of nat := [1];
+val : int;
 
 operations
-
-public updateSeqInstanceVar : () ==> bool
-updateSeqInstanceVar () ==
-(
- ivarSeq(1) := 5;
- return ivarSeq(1) = 5;
-);
-
-end ClassCollectionUpdate
+public run : () ==> ()
+run() ==
+	if val = 1 then
+		return
+	elseif val mod 2 = 0 then
+		val := val div 2
+	else
+		val := 3 * val + 1;
+end Collatz
