@@ -1,4 +1,4 @@
 set xlabel "Running Time (ms)
 set ylabel "Heap Usage (bytes)"
 set term wxt title "Memory Behaviour, Collatz Calculation, Value 77,031"
-plot [0:500][0:10000] "values.noGC" every 1 title "Without GC" with lines, "values.GC" every 1 title "With GC" with lines, "values.ideal" every 1 title "Ideal behaviour" with lines
+plot [0:500][0:3000] "values.noGC" every 1 title "Without GC" with lines, "values.GC" every 1 title "With GC" with lines, "values.ideal" every 1 title "Ideal behaviour" with lines
